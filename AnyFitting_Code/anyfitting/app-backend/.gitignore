@@ -1,0 +1,11 @@
+__pycache__
+Database/*
+output
+parser
+vton
+models
+*.jpg
+*.jpeg
+nohup.out
+__pycache__/*
+*/__pycache__/*

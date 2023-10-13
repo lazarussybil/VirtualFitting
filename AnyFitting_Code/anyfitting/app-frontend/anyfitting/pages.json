@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "My",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/tryOn/tryOn",
+			"style": {
+				"navigationBarTitleText": "Tryon",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "Recommendation",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/collectionList/collectionList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "CollectionList",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feedback/feedback",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Feedback",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Register",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/businessData/businessData",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "BusinessData",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/businessWarehousing/businessWarehousing",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "BusinessWarehousing",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/recommend/recommend",
+				"iconPath": "static/tabbar1.png",
+				"selectedIconPath": "static/tabbar1_active.png",
+				"text": "Recommendation"
+			},
+			{
+				"pagePath": "pages/tryOn/tryOn",
+				"iconPath": "static/tabbar2.png",
+				"selectedIconPath": "static/tabbar2_active.png",
+				"text": "TryOn"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar3.png",
+				"selectedIconPath": "static/tabbar3_active.png",
+				"text": "My"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
